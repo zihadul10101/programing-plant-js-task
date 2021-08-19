@@ -23,13 +23,13 @@ feetbtn.addEventListener('click', function () {
 // convert kg
 kgBtn.addEventListener('click', function () {
     let input = document.getElementById('inputKp').value;
-    document.getElementById('output').value = input / 2.205 + 'kg';
+    document.getElementById('outputPK').value = input / 2.205 + 'kg';
 })
 
 // convert pound
 poundBtn.addEventListener('click', function () {
     let input = document.getElementById('inputKp').value;
-    document.getElementById('output').value = input * 2.205 + 'pound';
+    document.getElementById('outputPK').value = input * 2.205 + 'pound';
 })
 
 
@@ -133,17 +133,14 @@ setInterval(function () {
 
 /// demo Button
 
-demoBtn =document.getElementById('asges');
-
-
-
-demoBtn.addEventListener("click",function(){
-console.log('click');
-var hint = document.getElementById('hint');
-if(hint.style.display == 'none'){
-  hint.style.display = 'block';
-}
-else{
-  hint.style.display = 'none';
-}
-})
+// demoBtn =document.getElementById('asges');
+// demoBtn.addEventListener("click",function(){
+// console.log('click');
+// var hint = document.getElementById('hint');
+// if(hint.style.display == 'none'){
+//   hint.style.display = 'block';
+// }
+// else{
+//   hint.style.display = 'none';
+// }
+// })

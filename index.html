@@ -17,7 +17,7 @@
     <h1>JavaScript Mastery</h1>
     
     <div class="main">
-        <div class="convertCal">
+        <div class="convertCal" id="conBtn" style="display: none;">
             <h1>Convater</h1>
             <label for="text">input meter/feet</label>
             <input type="text" class="input" id="inputMf">
@@ -34,7 +34,7 @@
             <label for="text">output</label>
         </div>
 
-        <div id="ageCalo" class="ageCal">
+        <div id="ageCalo"  class="ageCal" style="display: none;">
             <h1>Age Calculator</h1>
             <input type="date" name="date" id="dob">
             <button id="AgeCalcultor">Age Calculator</button>
@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div id="hint" class="calculator">
+    <div id="hint" class="calculator" style="display: none;">
         <h1>Calculator</h1>
         <div class="container">
             <div>
@@ -82,13 +82,17 @@
             </div>
         </div>
 
-        <div class="commingSoon">
+        <div class="commingSoon" id="soon" style="display: none;">
             <h1>Comming Soon to New Year <span>2022</span></h1>
             <div class="container">
                 <div class="flex">
+                    <label for="">day</label>
                     <div id="day">NA</div>
+                    <label for="">hour</label>
                     <div id="hour">NA</div>
+                    <label for="">minute</label>
                     <div id="minute">NA</div>
+                    <label for="">second</label>
                     <div id="second">NA</div>
                 </div>
             </div>
@@ -96,11 +100,20 @@
 
     </div>
 
-<!-- <div class="demoBtn">
-    <button id="asges">
+<div class="demoBtn" style="text-align: center;">
+    <button onclick=" showDiv()">
         AgeCalcultor
     </button>
-</div> -->
+    <button onclick= showCon() >
+        convater
+    </button>
+    <button onclick=showCal() id="CalBtn">
+        Calcultor
+    </button>
+    <button onclick=showSoon() id="CommingBtn">
+        commingSoon
+    </button>
+</div>
 
 
     <script src="app.js"></script>

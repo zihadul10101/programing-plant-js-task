@@ -131,16 +131,20 @@ setInterval(function () {
 
 
 
-/// demo Button
 
-// demoBtn =document.getElementById('asges');
-// demoBtn.addEventListener("click",function(){
-// console.log('click');
-// var hint = document.getElementById('hint');
-// if(hint.style.display == 'none'){
-//   hint.style.display = 'block';
-// }
-// else{
-//   hint.style.display = 'none';
-// }
-// })
+function showDiv() {
+    document.getElementById('ageCalo').style.display = "block";
+ 
+ }
+ function showCon() {
+    document.getElementById('conBtn').style.display = "block";
+ 
+ }
+ function showCal() {
+    document.getElementById('hint').style.display = "block";
+ 
+ }
+ function showSoon() {
+    document.getElementById('soon').style.display = "block";
+ 
+ }

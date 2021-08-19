@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    
+
+    <h1>JavaScript Mastery</h1>
+    
+    <div class="main">
+        <div class="convertCal">
+            <h1>Convater</h1>
+            <label for="text">input meter/feet</label>
+            <input type="text" class="input" id="inputMf">
+
+            <label for="text">input Kg/Pound</label>
+            <input type="text" class="inputKp" id="input">
+            <div class="divBtn">
+                <button id="meter">Convert to Meter</button><button id="feet">Convert to Feet</button>
+                <button id="kg">Convert to Kg</button><button id="pound">Convert to Pound</button>
+            </div>
+            <input type="text" id="output">
+            <label for="text">output</label>
+        </div>
+
+        <div id="ageCalo" class="ageCal">
+            <h1>Age Calculator</h1>
+            <input type="date" name="date" id="dob">
+            <button id="AgeCalcultor">Age Calculator</button>
+            <p id="ageOutput">
+
+            </p>
+        </div>
+    </div>
+
+    <div id="hint" class="calculator">
+        <h1>Calculator</h1>
+        <div class="container">
+            <div>
+                <input placeholder="0" type="text" name="" class="input" id="user-input">
+            </div>
+            <div class="line">
+                <button id="clear" class="c btn">C</button><!-- -------------><button id="back-button"
+                    class="ce btn">→</button><button class="numbers btn" value="/">÷</button><button class="numbers btn"
+                    value="*">×</button>
+            </div>
+            <div class="line "><button value="7" class="numbers btn">7</button><button value="8"
+                    class="numbers btn">8</button><button value="9" class="numbers btn">9</button><button
+                    class="numbers btn" value="-">-</button></div>
+
+            <div class="line">
+                <button value="4" class="numbers btn">4</button><button value="5" class="numbers btn">5</button><button
+                    value="6" class="numbers btn">6</button><button class="numbers btn" value="+">+</button>
+            </div>
+
+            <div class="line">
+                <div>
+                    <button value="1" class="numbers btn">1</button><button value="2"
+                        class="numbers btn">2</button><button value="3" class="numbers btn">3</button>
+                    <button value="0" class="zero numbers btn">0</button>
+
+                </div>
+
+                <div class="last">
+
+                    <button value="00" class="numbers btn">00</button>
+                    <button value="." class="numbers btn">.</button>
+                    <button class="equal btn" id="equal" value="="
+                        onclick="display.value=eval(display.value)">=</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="commingSoon">
+            <h1>Comming Soon to New Year <span>2022</span></h1>
+            <div class="container">
+                <div class="flex">
+                    <div id="day">NA</div>
+                    <div id="hour">NA</div>
+                    <div id="minute">NA</div>
+                    <div id="second">NA</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div class="demoBtn">
+    <button id="asges">
+        AgeCalcultor
+    </button>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

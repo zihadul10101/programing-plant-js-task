@@ -1,0 +1,115 @@
+html {
+    background-color: #333232;
+    height: 100%;
+
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;  
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.divBtn{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  margin: 10px;
+  padding-right: 10px;
+}
+.input {    
+    height: 15px;
+    width: 240px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+#output {
+    margin-top: 20px;
+    height: 25px;
+    width: 250px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+.convertCal{
+    border: 5px solid black;
+    color: brown;
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;   
+}
+.ageCal{
+    border: 5px solid black;
+    color: brown;
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px; 
+}
+p{
+    text-align: center;
+}  
+ .calculator{
+    border: 5px solid black;
+    color: brown;
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+}
+.container{
+display: grid;
+justify-content: center;
+height: 340px;
+width: 280px;
+background-color:#e8e8e8;
+margin: 0 auto;
+margin-top: 50px;
+padding: 10px;
+border: 1px solid #777;
+}
+.btn{
+  font-size: 40px;
+  cursor: pointer;
+  width: 61px;
+
+}
+.line{
+  margin-bottom: 10px ;
+}
+.last input{
+  width: 126px;
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+ .commingSoon{
+   border: 5px solid black;
+   color: brown;
+   background-color: chartreuse;
+   border-radius: 10px;
+   width: 700px;
+   height: 500px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin: 1px;
+    padding-right: 10px;
+}
+.flex div {
+    border: 1px solid red;
+    padding: 20px;
+}
